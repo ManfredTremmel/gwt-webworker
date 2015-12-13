@@ -13,10 +13,10 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
 
 	<modelVersion>4.0.0</modelVersion>
-	<groupId>de.knightsoft-netr</groupId>
+	<groupId>de.knightsoft-net</groupId>
 	<artifactId>gwt-webworker</artifactId>
 	<packaging>jar</packaging>
-	<version>1.0.1-SNAPSHOT</version>
+	<version>1.0.2</version>
 	<name>gwt-webworker</name>
 	<description>
      WebWorker classes from Googles SpeedTracer extracted as own package to integrate in own projects.
@@ -68,15 +68,16 @@
 		<maven>3.0.0</maven>
 	</prerequisites>
 
-	<contributors>
-		<contributor>
+	<developers>
+		<developer>
 			<name>Manfred Tremmel</name>
+			<id>ManfredTremmel</id>
 			<email>Manfred.Tremmel@iiv.de</email>
 			<roles>
-				<role>Created pom file and added to maven repository</role>
+				<role>Java Developer</role>
 			</roles>
-		</contributor>
-	</contributors>
+		</developer>
+	</developers>
 
 	<properties>
 		<jdk.version>1.7</jdk.version>
@@ -90,6 +91,8 @@
 		<wagon-webdav-jackrabbit.version>2.10</wagon-webdav-jackrabbit.version>
 		<maven-release-plugin.version>2.5.3</maven-release-plugin.version>
 		<maven-gpg-plugin.version>1.6</maven-gpg-plugin.version>
+
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 	</properties>
 
 	<dependencies>
