@@ -16,7 +16,7 @@
 	<groupId>de.knightsoft-net</groupId>
 	<artifactId>gwt-webworker</artifactId>
 	<packaging>jar</packaging>
-	<version>1.0.3</version>
+	<version>1.0.4</version>
 	<name>gwt-webworker</name>
 	<description>
      WebWorker classes from Googles SpeedTracer extracted as own package to integrate in own projects.
@@ -86,7 +86,7 @@
 		<junit.version>4.12</junit.version>
 		<maven-compiler-plugin.version>3.7.0</maven-compiler-plugin.version>
 		<maven-source-plugin.version>3.0.1</maven-source-plugin.version>
-		<maven-javadoc-plugin.version>2.10.4</maven-javadoc-plugin.version>
+		<maven-javadoc-plugin.version>3.0.0</maven-javadoc-plugin.version>
 		<maven-project-info-reports-plugin.version>2.9</maven-project-info-reports-plugin.version>
 		<nexus-staging-maven-plugin.version>1.6.8</nexus-staging-maven-plugin.version>
 		<wagon-webdav-jackrabbit.version>3.0.0</wagon-webdav-jackrabbit.version>
