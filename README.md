@@ -1,3 +1,5 @@
+# This project is read only and was moved to gitlab: [https://gitlab.com/ManfredTremmel/gwt-webworker](https://gitlab.com/ManfredTremmel/gwt-webworker)
+
 # gwt-webworker
 WebWorker classes from Googles SpeedTracer extracted as own package to integrate in own projects.
 
